@@ -17,7 +17,7 @@ def get_directory_name(regex,url):
     dir_name = "_".join(result[0])
     return dir_name
 def process():
-    main_dir = "dimik_pub"
+    main_dir = "dimik-pub"
     create_directory(main_dir)
     url = "http://dimik.pub"
     response = requests.get(url)
