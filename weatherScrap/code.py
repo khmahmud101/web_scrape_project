@@ -21,13 +21,7 @@ temperatures = [item.find(class_="temp").get_text() for item in items]
 #print(period_name)
 #print(short_description)
 #print(temperatures)
-for item in items:
-    item = tuple(item)
-    print(item[1])
-    print(item[2])
-    #print(item[3])
-    print(item[4])
-    print(item[5])
+
 
 weather_stuff = pd.DataFrame({
     'Period': period_name,
